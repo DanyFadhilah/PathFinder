@@ -1,0 +1,233 @@
+.bg{
+    background-color: #ffe0d8 !important;
+}
+
+.teks{
+    background-color: #f8f8f8;
+    color: black;
+    padding: 1%;
+    font-size: 90%;
+    margin-top: 7%;
+    border-radius: 8px;
+    margin-left: 14%;
+}
+
+.profil{
+    margin-top: 10%;
+    margin-left: 20%;
+}
+
+.tengah{
+    margin-top: 3%;
+}
+
+.white{
+      border: 1px solid #667E90 !important;
+      background-color: white !important;
+      margin-left: 24% !important;
+      margin-top: -5%;
+      color: black !important;
+      margin-bottom: 10%;
+}
+
+.white:hover{
+    border: 1px solid #667E90 !important;
+    background-color: #667E90 !important;
+    margin-left: 24% !important;
+    margin-top: -5%;
+    color: white !important;
+}
+
+#drpdwn{
+    border-radius: 20px;
+    background-color: #439100 !important;
+    margin-left: 82%;
+    margin-top: 3%;
+}
+
+.name {
+    width: 100%;
+}
+
+.name h4 {
+    font-size: 28px;
+    width: 100%;
+}
+
+.name p {
+    font-size: 14px;
+    width: 100%;
+    color: #FF8B6A;
+}
+
+.contact{
+    float: left;
+    width: 100%;
+}
+
+.contact .key {
+    width: 35%;
+    float: left;
+}
+
+.contact .key span {
+    width: 100%;
+    float: left;
+}
+
+.contact .value {
+    width: 65%;
+    float: right;
+}
+
+.hobbybox{
+    border: 1px solid #FF8B6A !important;
+    border-radius: 10px;
+    height: 30%;
+    width: 50%;
+}
+
+.aboutme{
+    background-color: #FFE0D8;
+    width: 100%;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    border: 1px solid #FFE0D8;
+    padding: 2%;
+}
+
+.aboutme:hover{
+    background-color: #FF8B6A !important; 
+    color: white !important;
+}
+
+.aktif{
+    background-color: #FF8B6A !important; 
+    color: white !important;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+}
+
+.aktif2{
+    background-color: #FF8B6A !important; 
+    color: white !important;
+    font-weight: bold;
+}
+
+.aktif3{
+    background-color: #FF8B6A !important; 
+    color: white !important;
+    font-weight: bold;
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+}
+
+.abtme{
+    color: black;
+    list-style: none;
+}
+
+.projects{
+    background-color: #FFE0D8; 
+    width: 100%;
+    margin-top: 2%;
+    border: none;
+    padding: 2%;
+}
+
+.projects:hover{
+    background-color: #FF8B6A !important; 
+    color: white !important;
+}
+
+.prjcts{
+    color: black;
+}
+
+.backed{
+    background-color: #FFE0D8; 
+    width: 100%;
+    border: none;
+    margin-top: 2%;
+    padding: 2%;
+}
+
+.backed:hover{
+    background-color: #FF8B6A !important; 
+    color: white !important;
+}
+
+.backged{
+    color: #000000;
+}
+
+.profskill{
+    background-color: #FFE0D8; 
+    width: 100%;
+    border: none;
+    margin-top: 2%;
+    padding: 2%;
+}
+
+.profskill:hover {
+    background-color: #FF8B6A !important; 
+    color: white !important;
+}
+
+.profskil{
+    color: #000000;
+}
+
+.basicass{
+    Background-color: #FFE0D8; 
+    width: 100%;
+    border: none;
+    margin-top: 2%;
+    padding: 2%;
+}
+
+.basicass:hover {
+    background-color: #FF8B6A !important; 
+    color: white !important;
+}
+
+.basass{
+    color: #000000;
+}
+
+.advanced{
+    background-color: #FFE0D8; 
+    width: 100%;
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+    border: none;
+    margin-top: 2%;
+    padding: 2%;
+}
+
+.advanced:hover{
+    background-color: #FF8B6A !important; 
+    color: white !important;
+}
+
+.advncd{
+    color: #000000;
+}
+
+.kategori a:hover{
+    text-decoration: none;
+}
+
+.kategori{
+    float: left;
+    margin-left: 8%;
+    margin-top: 8%;
+}
+
+.hobbybox{
+    width: 80%;
+    float: left;
+    margin-left: 3%;
+    margin-top: 3%;
+    height: 80%;
+}
