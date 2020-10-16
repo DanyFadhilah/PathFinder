@@ -46,6 +46,10 @@ class EmployerAuthController extends Controller
         $user->nama_depan = $request->firstname;
         $user->nama_belakang = $request->lastname;
         $user->email = $request->email;
+        $user->created_by = $request->firstname;
+        $user->created_date  = date("Y-m-d H:i");
+        $user->updated_by = $request->firstname;
+        $user->updated_date = date("Y-m-d H:i");
         $user->password = bcrypt ($request->password);
         $user->save();
         

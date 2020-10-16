@@ -1,17 +1,11 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace {{ namespace }};
 
+use {{ rootNamespace }}Http\Controllers\Controller;
 use Illuminate\Http\Request;
-use Illuminate\Support\facades\DB;
-use PDF;
-use App\Pelamar;
-use App\User;
-use App\Pendidikan;
-use App\Pekerjaan;
-use App\Roles;
 
-class TalentSearchController extends Controller
+class {{ class }} extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -20,35 +14,7 @@ class TalentSearchController extends Controller
      */
     public function index()
     {
-        $data_siswa = \App\Pelamar::paginate(20);
-        /**$pelamar = Pelamar::all()->paginate(2);**/
-        return view('employer\talent_search\talentsearch', compact('data_siswa'));
-    }
-
-    public function kirim_pdf(Pelamar $pelamar)
-    { 
-        $pelamar = Pelamar::findOrFail($pelamar->id);
-        $pdf = PDF::loadView('export.pelamarpdf',['pelamar'=>$pelamar]);
-        return $pdf->download('profile.pdf');
-
-    }
-
-    
-
-    public function offer(Pelamar $pelamar)
-    { 
-
-    }
-
-    public function cari(Request $request)
-    {
-        $cari = $request->cari;
-        $pelamar = DB::table('pelamar')
-        ->where('nama', 'like', "%".$cari."%")
-        ->orwhere('pendidikan', 'like', "%".$cari."%")
-        ->orwhere('alamat', 'like', "%".$cari."%")
-        ->get();
-        return view('employer\talent_search\talentsearch', compact('data_siswa'));
+        //
     }
 
     /**
